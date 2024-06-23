@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+/*"Yanone Kaffeesatz"*/
+
+*{
+    padding: 0;
+    margin: 0;
+    transition: all 0.3s;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/*Gerais
+---------------*/
+h1{
+    padding-bottom: 10px;
+
+    color: #58CC02;
+    letter-spacing: 1px;
+
+    font-family: "Yanone Kaffeesatz";
+    font-size: 67px;
+    font-weight: bold;
+
+}
+
+h2{
+    margin-bottom: 25px;
+
+    color: #4b4b4b;
+    text-align: center;
+    line-height: 45px;
+
+    font-weight: bold;
+    font-size: 31px;
+}
+
+p{
+    color: #828181;
+
+    font-family: "Yanone Kaffeesatz";
+    font-weight: bold;
+    font-size: 20px;
+
+    letter-spacing: 1px;
+}
+
+a{
+    color: yellow;
+}
+
+a:hover{
+    color: yellow;
+}
+
+/*Classes
+----------------*/
+.azul{
+    color: #1cb0f6;
+    font-weight: bold;
+}
+
+.botoes_dentro{
+    color: #4b4b4b;
+    font-weight: bold;
+}
+
+.botoes_dentro_grande{
+    columns: #4b4b4b;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+/*Topo
+----------------*/
+#home{
+    border-bottom: 2px solid white;
+}
+
+nav{
+    margin: 0;
+    padding: 8px 100px;
+    background-color: white;
+}
+
+nav > div{
+    color: #afafaf;
+
+    font-family: "Yanone Kaffeesatz";
+    font-size: 20px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/*Nav no medio
+-----------------*/
+#idiomas{
+    margin: 0;
+    
+    height: 74px;
+    
+    border-top: 2px solid rgb(232, 230, 230);
+    border-bottom: 2px solid #e8e6e6;
+}
+
+#idiomas > ul > li > p{
+    display: inline;
+
+    color: #777777;
+
+    font-family: "Yanone Kaffeesatz";
+    font-size: 20px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    padding-left: 5px;
+}
+
+/*Home
+-----------------*/
+#inicio{
+    padding-top: 300px;
+    padding-bottom: 130px;
+    margin: 0 118px;
+}
+
+#botao_inicio_dois{
+    color: #1cb0f6;
+    font-family: "Yanone Kaffeesatz";
+
+    text-shadow: 1px 1px 1px #1cb0f660;
+    letter-spacing: 1px;
+}
+
+#img_home{
+    padding-left: 65px;
+}
+
+/*Posicionamento
+----------------´*/
+#gratis, #ciencia, #motivacao, #aprendiz, #test, #abc, #math, #schools{
+    padding: 60px 0;
+}
+
+#espaço{
+    height: 325px;
+    background: linear-gradient(to top, #D6F4FF 50%, transparent);
+}
+
+#aprendiz{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+#math{
+    padding-bottom: 210px;
+}
+
+#final{
+    background-image: url(../img/Img-secoes/Duolingo_Final.png), linear-gradient(to top, #00CD00 45%, white 45%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    height: 840px;
+}
+
+#links{
+    padding-top: 50px;
+}
+
+/*Gratis
+-----------------*/
+#titulo_gratis{
+    padding-left: 100px;
+}
+
+/*Ciencia
+----------------*/
+#img_ciencia{
+    padding-left: 75px;
+}
+
+#ciencia #titulo_gratis, #aprendiz #titulo_gratis{
+    padding-left: 20px;
+}
+
+/*Download
+------------------*/
+#download{
+    text-align: center;
+    background: url(../img/Fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1150px;
+}
+
+#download h1{
+    color: #042c60;
+    font-size: 85px;
+    padding-bottom: 0;
+}
+
+#download div.col-md-12{
+    padding-top: 20px;
+}
+#download .botao_branco{
+    color: #4b4b4b;
+    text-shadow: none;
+    background-color: white;
+}
+
+#download button{
+    width: 190px;
+    border-radius: 10px;
+}
+
+#download i.fa-apple{
+    position: absolute;
+    top: 90%;
+    left: 35%;
+    color: #4b4b4b;
+}
+
+#download i.fa-google-play{
+    position: absolute;
+    top: 90%;
+    left: 52%;
+    color: #4b4b4b;
+}
+
+#download .botao_branco:hover{
+    background-color:  #d9d9d9;
+}
+
+#download .botao_um_cima{
+    padding-left: 20px;
+}
+
+#download .botao_um_baixo{
+    padding-left: 30px;
+}
+
+#download .botao_dois{
+    width: 160px;
+}
+
+.botao_dois_cima{
+    padding-left: 42px;
+}
+
+.botao_dois_baixo{
+padding-left: 16px;
+}
+
+/*Super
+------------------*/
+#super{
+    height: 1000px;
+    background-color: #100F3E;
+}
+
+#super .col-md-6{
+    padding-top: 300px;
+}
+
+#super .botao_branco{
+    color: black;
+    font-family: "Yanone Kaffeesatz";
+    font-weight: bold;
+    font-size: 24px;
+
+    text-shadow: 1px 1px 1px #1cb0f660;
+    letter-spacing: 1px;
+
+    box-shadow: 0px 3px 3px black;
+}
+
+/*Final
+------------------*/
+#final h1{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+/*Links
+------------------*/
+#links{
+    border-bottom: 2px solid #a5ed6e;
+    background-color: #00CD00;
+    padding-bottom: 60px;
+}
+
+#links p{
+    font-size: 24px;
+    font-weight: bold;
+
+    padding-bottom: 5px;
+
+    color: #d7ffb8;
+    line-height: 25px;
+}
+
+#links li{
+    color: #a5ed6e;
+
+    font-weight: bold;
+    font-size: 14px;
+
+    padding-bottom: 10px;
+}
+
+#links div.col-md-2{
+    padding: 0 0 0 15px;
+}
+
+/*Idiomas
+------------------*/
+#idiomas2{
+    padding: 40px 0;
+    background-color: #00CD00;
+}
+
+#idiomas2 p{
+    font-size: 24px;
+    font-weight: bold;
+
+    padding-bottom: 5px;
+
+    color: #d7ffb8;
+    line-height: 25px;
+}
+
+#idiomas2 ul{
+    padding: 4px 0;
+}
+
+#idiomas2 li{
+    color: #a5ed6e;
+    font-weight: bold;
+    font-size: 14px;
+
+    padding-bottom: 10px;
+    padding-right: 14px;
+}
+
+/*Botoes
+------------------*/
+
+.botoes{
+    font-family: "Yanone Kaffeesatz";
+    font-size: 21px;
+    font-weight: bold;
+    
+    border-radius: 13px;
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.botao_verde{
+    color: white;
+    text-shadow: 3px 3px 3px #00000040;
+
+    font-family: "Yanone Kaffeesatz";
+    background-color: #58CC02;
+    box-shadow: 0px 3px 3px #469a06; 
+    border: 2px solid #58CC02;
+}
+
+.botao_verde:hover{
+    background-color:#69eb04;
+    border: 2px solid #69eb04;
+}
+
+.botao_branco{
+    color: #1cb0f6;
+    text-shadow: 3px 3px 3px #1cb0f640;
+
+    box-shadow: 0px 3px 3px #cfc7c7; 
+    border: 2px solid #cfc7c7;
+}
+
+.botao_branco:hover{
+    background-color: #e2e1e1;
+}

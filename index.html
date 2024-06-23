@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Duolino_Favicon.ico" type="image/x-icon">
+    <title>Duolingo</title>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="Otimizacoes/Normalize_Css.css">
+
+    <!-- Bootstrap -->
+      <link rel="stylesheet" href="Bootstrap4/css/bootstrap.css">
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+      <!--Font Awesone-->
+      <script src="https://kit.fontawesome.com/4fe87b1342.js" crossorigin="anonymous"></script>
+
+    <!-- Fim Bootstrap -->
+
+    <!-- HTML5SHIV -->
+    <!--[if lt IE 9]>
+	    <script src="_Otimizacoes/html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body onscroll="barra()" onresize="barra()">
+
+    <header> <!--TOPO-->
+        <nav id="home" class="d-flex align-items-center fixed-top">
+            <a href="#">
+                <img class="navbar-brand img-fluid" width="179" height="42" src="img/Duolindo_Logo.png" alt="">
+            </a>
+            <div id="idioma_site" class="ml-auto">
+                Idioma do site em: Português
+            </div>
+        </nav>
+    </header> <!--FIM TOPO-->
+
+    <section id="inicio">
+        <div class="container">
+            <div class="row align-items-center">
+                <div id="img_home" class="col-md-6">
+                    <img src="img/Img-secoes/Duolindo_Home.png" width="400" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h2>O jeito grátis, divertido e eficaz de aprender um idioma!</h2>
+                    <div id="botoes_inicio" class="d-flex flex-column align-items-center">
+                        <button class="btn btn-success col-md-9 botoes mt-4 mb-3 botoes botao_verde" type="button">Comece Agora</button>
+                        <button class="btn col-md-9 botoes botao_branco" type="button">Já tenho uma conta</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <nav id="idiomas" class="navbar navbar-expand-md mt-5">
+        <ul class="navbar-nav">
+            <li class="nav-item ml-5 mr-4">
+                <img src="img/idiomas/ingles.png" alt="">
+                <p>Inglês</p>
+            </li>
+            <li class="nav-item ml-4 mr-4">
+                <img src="img/idiomas/espanhol.png" alt="">
+                <p>espanhol</p>
+            </li>
+            <li class="nav-item ml-4 mr-4">
+                <img src="img/idiomas/frances.png" alt="">
+                <p>francês</p>
+            </li>
+            <li class="nav-item ml-4 mr-4">
+                <img src="img/idiomas/alemao.png" alt="">
+                <p>alemão</p>
+            </li>
+            <li class="nav-item ml-4 mr-4">
+                <img src="img/idiomas/italiano.png" alt="">
+                <p>italiano</p>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="gratis">
+        <div class="container">
+            <div class="row align-items-center">
+                <div id="titulo_gratis" class="col-md-6 ">
+                    <h1>grátis. divertido. <br> eficaz.</h1>
+                    <p>Aprender com o Duolingo é divertido, e <span class="azul">pesquisas comprovam que funciona mesmo!</span> Com lições rápidas e curtinhas, você ganha pontos e desbloqueia novos níveis enquanto aprende como se comunicar na vida real.</p>
+                </div>
+                <div id="img_home" class="col-md-6">
+                    <img src="img/Img-secoes/Duolingo_Gratis.png" width="400" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ciencia">
+        <div class="container">
+            <div class="row align-items-center">
+                <div id="img_ciencia" class="col-md-6">
+                    <img src="img/Img-secoes/Duolingo_Ciencia.png" width="400" alt="">
+                </div>
+                <div id="titulo_gratis" class="col-md-6 ">
+                    <h1>baseado na ciência</h1>
+                    <p>Combinamos metodologias aprovadas pela ciência com um conteúdo encantador para criar cursos eficazes que ensinam leitura, escrita, escuta e fala!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="motivacao">
+        <div class="container">
+            <div class="row align-items-center">
+                <div id="titulo_gratis" class="col-md-6 ">
+                    <h1>mantenha a motivação</h1>
+                    <p>Fica fácil criar o hábito de aprender idiomas com recursos que parecem de jogo, desafios divertidos e lembretes do nosso mascote simpático, a coruja Duo.</p>
+                </div>
+                <div id="img_ciencia" class="col-md-6">
+                    <img src="img/Img-secoes/Duolingo_Motivacao.png" width="400" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="aprendiz">
+        <div class="container">
+            <div class="row align-items-center">
+                <div id="img_ciencia" class="col-md-6">
+                    <img src="img/Img-secoes/Duolingo_Aprendiz.png" width="400" alt="">
+                </div>
+                <div id="titulo_gratis" class="col-md-6 ">
+                    <h1>aprendizado feito para você</h1>
+                    <p>As lições combinam o melhor da inteligência artificial e da ciência da linguagem e são feitas sob medida para ajudar você a aprender no nível e ritmo certos.</p>
+                </div>
+                  
+            </div>
+        </div>
+    </section>
+
+    <div id="espaço">
+    </div>
+
+    <section id="download">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>aprenda onde e <br> quando quiser</h1>
+                    <div class="d-flex justify-content-center mt-5 ">
+                        <button class="btn botao_branco mr-2 ml-2" type="button">
+                            <i class="fa-brands fa-apple fa-2xl"></i>
+                            <span class="botoes_dentro botao_um_cima">Baixe na</span> <br>
+                            <span class="botoes_dentro_grande botao_um_baixo">App Store</span>
+                        </button>
+                        <button class="btn botao_branco mr-2 ml-2" type="button">
+                            <i class="fa-brands fa-google-play fa-2xl"></i>
+                            <span style="text-transform: uppercase;" class="botoes_dentro botao_dois_cima">Disponível no</span> <br>
+                            <span class="botoes_dentro_grande botao_dois_baixo">Google Play</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="super">
+        <div class="container">
+            <div class="row align-items-center">
+                <div id="super_Duolingo" class="col-md-6">
+                    <img src="img/Img-secoes/Super_Duolingo.png" alt="">
+                </div>
+                <div class="col-md-6 d-flex flex-column align-items-center">
+                    <img src="img/Super_Duolingo.png" width="418" alt="">
+                    <button class="btn botao_branco col-md-7 mt-4" type="button">Experimente 2 semanas gratis</button>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <section id="test">
+        <div class="container">
+            <div class="row align-items-center">
+                <div id="titulo_gratis" class="col-md-6 ">
+                    <h1>duolingo english test</h1>
+                    <p>Nosso teste de inglês rápido, acessível e conveniente integra inteligência artificial e conhecimentos de ponta sobre avaliação, o que permite que todos façam o teste onde e quando se sentirem mais à vontade.</p>
+                    <button class="btn botoes botao_branco col-md-8" type="button">Certifique o seu ingles</button>
+                </div>
+                <div id="img_ciencia" class="col-md-6">
+                    <img src="img/Img-secoes/Duolingo_Test.png" width="400" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="schools">
+        <div class="container">
+            <div class="row align-items-center">
+                <div id="img_ciencia" class="col-md-6">
+                    <img src="img/Img-secoes/Duolingo_Schools.png" width="400" alt="">
+                </div>
+                <div id="titulo_gratis" class="col-md-6 ">
+                    <h1>duolingo for schools</h1>
+                    <p>Professores, estamos aqui para ajudar! A nossa ferramenta gratuita apoia os seus alunos enquanto eles aprendem idiomas pelo aplicativo do Duolingo, tanto dentro quanto fora da sala de aula.</p>
+                    <button class="btn botoes botao_branco col-md-8" type="button">Use com sua turma</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="abc">
+        <div class="container">
+            <div class="row align-items-center">
+                <div id="titulo_gratis" class="col-md-6 ">
+                    <h1>duolingo abc</h1>
+                    <p>Do ensino de idiomas à alfabetização! Com lições divertidas de fônica e histórias encantadoras, o Duolingo ABC ajuda crianças de 3 a 8 anos a aprender a ler e escrever — totalmente grátis!</p>
+                    <button class="btn botoes botao_branco col-md-8" type="button">Saiba mais sobre o abc</button>
+                </div>
+                <div id="img_ciencia" class="col-md-6">
+                    <img src="img/Img-secoes/Duolingo_Abc.png" width="400" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="math">
+        <div class="container">
+            <div class="row align-items-center">
+                <div id="img_ciencia" class="col-md-6">
+                    <img src="img/Img-secoes/Duolingo_Math.png" width="400" alt="">
+                </div>
+                <div id="titulo_gratis" class="col-md-6 ">
+                    <h1>duolingo math</h1>
+                    <p>Nossas lições curtinhas e gratuitas, agora na matemática! Os exercícios divertidos ajudam os alunos em idade escolar a evoluir nas aulas, enquanto os adultos podem treinar o cérebro para turbinar o raciocínio matemático.</p>
+                    <button class="btn botoes botao_branco col-md-8" type="button">Melhore em matematica</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="final">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 style="text-align: center;">aprenda um <br> idioma com o <br> duolingo</h1>
+                </div>
+                <div class="col-md-8 ml-auto">
+                    <button class="btn botoes botao_verde col-md-6" type="button">Comece Agora</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="links">
+        <div class="container">
+            <div class="row justify-content-center col-md-12">
+                <div class="col-md-2">
+                    <p>Quem somos</p>
+                    <ul class="navbar-nav">
+                        <li>Cursos</li>
+                        <li>Missão</li>
+                        <li>Método</li>
+                        <li>Eficácia</li>
+                        <li>Equipe</li>
+                        <li>Pesquisa</li>
+                        <li>Carreiras</li>
+                        <li>Guia da marca</li>
+                        <li>Loja</li>
+                        <li>Imprensa</li>
+                        <li>Investidores</li>
+                        <li>Entre em contato</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <p>Produtos</p>
+                    <ul class="navbar-nav">
+                        <li>Duolingo</li>
+                        <li>Duolingo for Schools</li>
+                        <li>Duolingo English Test</li>
+                        <li>Podcast</li>
+                        <li>Duolingo for Business</li>
+                        <li>Super Duolingo</li>
+                        <li>Dê o Super Duolingo de presente</li>
+                    </ul>                    
+                </div>
+                <div class="col-md-2">
+                    <p>Aplicativos</p>
+                    <ul class="navbar-nav">
+                        <li>Duolingo para Android</li>
+                        <li>Duolingo para iOS</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <p>Ajuda e suporte</p>
+                    <ul class="navbar-nav">
+                        <li>Dúvidas: Duolingo</li>
+                        <li>Dúvidas: Escolas</li>
+                        <li>Dúvidas: Duolingo English Test</li>
+                        <li>Status</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <p>Termos e <br> privacidade</p>
+                    <ul class="navbar-nav">
+                        <li>Normas da comunidade</li>
+                        <li>Termos de uso</li>
+                        <li>Privacidade</li>
+                    </ul>
+                    <p style="padding-top: 20px;">Redes sociais</p>
+                    <ul class="navbar-nav">
+                        <li>Blog</li>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="idiomas2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <p>Idioma do site:</p>
+                    <ul id="lista1" class="navbar-nav d-flex flex-row">
+                        <li>العربية</li>
+                        <li>বাংলা</li>
+                        <li>Čeština</li>
+                        <li>Deutsch</li>
+                        <li>Ελληνικά</li>
+                        <li>English</li>
+                        <li>Español</li>
+                        <li>Français</li>
+                        <li>हिंदी</li>
+                        <li>Magyar</li>
+                        <li>Bahasa Indonesia</li>
+                        <li>Italiano</li>
+                        <li>日本語</li>
+                        <li>한국어</li>
+                    </ul>
+                    <ul id="lista2" class="navbar-nav d-flex flex-row">
+                        <li>Nederlands</li>
+                        <li>Polski</li>
+                        <li>Português</li>
+                        <li>Română</li>
+                        <li>Русский</li>
+                        <li>తెలుగు</li>
+                        <li>ภาษาไทย</li>
+                        <li>TagalogTagalog</li>
+                        <li>Türkçe</li>
+                        <li>Українською</li>
+                        <li>Tiếng Việt</li>
+                        <li>中文</li>
+                    </ul>
+                    <p id="divul">Site feito por <a href="https://github.com/LuizDev271" target="_blank">LuizDev271</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>

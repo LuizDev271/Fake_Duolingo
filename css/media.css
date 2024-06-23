@@ -1,0 +1,177 @@
+@media (max-width: 575.98px){
+    nav#idiomas{
+        display: none;
+    }
+
+    nav#home{
+        justify-content: center;
+    }
+
+    nav#home img{
+        margin-right: 0;
+    }
+
+    div#idioma_site{
+        display: none;
+    }
+
+    div#img_home{
+        padding: 0;
+    }
+
+    section#inicio{
+        padding-top: 175px;
+        margin: 0;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    h1, h2, p{
+        text-align: center;
+    }
+
+    div#titulo_gratis{
+        padding-left: 15px;
+    }
+
+    #ciencia div#titulo_gratis, #aprendiz div#titulo_gratis{
+        padding-left: 15px;
+    }
+    
+    section#inicio h2{
+        padding-bottom: 20px;
+    }
+
+    section#inicio img{
+        width: 250px;
+        margin-left: 112px;
+        margin-bottom: 10px;
+    }
+
+    section#gratis h1{
+        padding-bottom: 20px;
+    }
+
+    section#gratis img{
+        padding-left: 20px;
+    }
+
+    section#ciencia img, section#motivacao img{
+        padding-right: 80px;
+    }
+
+    section#aprendiz img{
+        padding-right: 50px;
+    }
+
+    section#ciencia div.row{
+        flex-direction: column-reverse
+    }
+
+    section#aprendiz div.row{
+        flex-direction: column-reverse
+    }
+
+    #download h1{
+        font-size: 50px;
+    }
+
+    #download div.d-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #download button{
+        margin-bottom: 25px;
+    }
+
+    #download i.fa-apple{
+        top: 60%;
+        left: 35%;
+    }
+    
+    #download i.fa-google-play{
+        top: 84%;
+        left: 32%;
+    }
+
+    #final{
+        background-size: cover;
+    }
+    
+    #espaço{
+        height: 100px;
+    }
+
+    #super{
+        height: 960px;
+    }
+
+    #super img{
+        margin-left: 12px;
+        width: 400px;
+    }
+
+    #super #super_Duolingo{
+        padding-top: 190px;
+    }
+    
+    #super div.d-flex{
+        padding-top: 50px;
+    }
+
+    #super div.d-flex > img{
+        width: 320px;
+        padding-bottom: 10px;
+    }
+
+    #super div.d-flex > button{
+        width: 330px;
+    }
+
+    #test{
+        padding-top: 100px;
+    }
+
+    #test img, #schools img, #abc img, #math img{
+        padding-top: 70px;
+        padding-right: 70px;
+    }
+
+    #schools div.row, #math div.row{
+        flex-direction: column-reverse
+    }
+
+    #links p{
+        padding-top: 10px;
+        text-align: left;
+    }
+
+    #idiomas2{
+        height: 400px;
+    }
+
+    #idiomas2 p#divul{
+        padding-top: 120px;
+    }
+
+    #idiomas2 ul{
+        height: 40px;
+    }
+
+    #idiomas2 .navbar-nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #idiomas2 #lista2{
+        padding-top: 65px;
+    }
+
+    #download{
+        background-image: url(../img/Fundo_Mobile.png);
+        background-position: left center;
+    }
+}
