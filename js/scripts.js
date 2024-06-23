@@ -28,7 +28,7 @@ function barra(){
 
   } else {
 
-    if(scrollY >= 3810 && scrollY <= 6000){
+    if(scrollY >= 4058 && scrollY <= 6200){
       barraNav.style.opacity = '0%'
     } else {
       barraNav.style.opacity = '100%'
