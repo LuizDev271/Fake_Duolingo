@@ -5,7 +5,6 @@ let largura = 0
 
 function barra(){
   largura = window.innerWidth
-  console.log(scrollY)
 
   if(scrollY != 0){
     barraNav.style.borderBottom = '2px solid #e8e6e6'

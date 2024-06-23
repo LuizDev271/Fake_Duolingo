@@ -15,6 +15,20 @@
         display: none;
     }
 
+    #aprendiz #img_ciencia{
+        padding-left: 35px;
+        padding-right: 0;
+    }
+
+    #motivacao #img_ciencia, #ciencia #img_ciencia{
+        padding-left: 30px;
+    }
+
+    #test #img_ciencia, #schools #img_ciencia, #abc #img_ciencia, #math #img_ciencia{
+        padding-left: 20px;
+        padding-right: 0;
+    }
+
     div#img_home{
         padding: 0;
     }
@@ -56,14 +70,6 @@
 
     section#gratis img{
         padding-left: 20px;
-    }
-
-    section#ciencia img, section#motivacao img{
-        padding-right: 80px;
-    }
-
-    section#aprendiz img{
-        padding-right: 50px;
     }
 
     section#ciencia div.row{
@@ -137,7 +143,7 @@
 
     #test img, #schools img, #abc img, #math img{
         padding-top: 70px;
-        padding-right: 70px;
+        padding-left: 0;
     }
 
     #schools div.row, #math div.row{
