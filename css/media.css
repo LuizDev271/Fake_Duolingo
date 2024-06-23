@@ -1,8 +1,4 @@
 @media (max-width: 575.98px){
-    nav#idiomas{
-        display: none;
-    }
-
     nav#home{
         justify-content: center;
     }
