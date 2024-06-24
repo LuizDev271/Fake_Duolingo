@@ -56,8 +56,8 @@
 
     section#inicio img{
         width: 250px;
-        margin-left: 112px;
         margin-bottom: 10px;
+        padding-left: 20px;
     }
 
     section#gratis h1{
@@ -65,7 +65,7 @@
     }
 
     section#gratis img{
-        padding-left: 20px;
+        padding-right: 20px;
     }
 
     section#ciencia div.row{
